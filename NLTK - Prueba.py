@@ -47,7 +47,6 @@ print(token_limpio)
 # Tag separa los AT, NN, VB, JJ.
 
 tag = nltk.pos_tag(token_limpio)
-
 for i in tag:
-    if (i[1] == 'NN'):
+    if i[1] == 'NN':
         print(i[1])
