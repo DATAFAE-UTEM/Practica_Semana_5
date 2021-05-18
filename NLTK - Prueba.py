@@ -19,7 +19,7 @@ def normalize(s):
         return s
 
 
-with open('C:\\Users\\marti\\OneDrive\\Desktop\\Datas\\PDf - modelo test\\out_text.csv', enconding="ISO-8859-1", errors="ignore") as f:
+with open('out_text.csv', enconding="ISO-8859-1", errors="ignore") as f:
     content = f.read()
 
     tokenize = nltk.word_tokenize(content)
