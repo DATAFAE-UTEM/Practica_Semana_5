@@ -39,7 +39,7 @@ print(type(filtro))
 
 # Contabilizar top n° palabras tras stopwords
 c = Counter(filtro)
-print(c.most_common(10))
+print(c.most_common(5))
 
 #Orden de las mas repetidas
 y = OrderedDict(c.most_common())
