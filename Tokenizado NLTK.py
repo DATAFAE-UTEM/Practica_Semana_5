@@ -17,7 +17,8 @@ def normalize(s):
         return s
 
 with open('out_text.txt', 'r') as miarchivo:
-    texto = miarchivo.read()
+    archivo = miarchivo.read()
+    texto = archivo.lower()
 
 stop_words = set(stopwords.words('spanish'))
 word_tokens = word_tokenize(texto)
