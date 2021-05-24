@@ -62,6 +62,7 @@ print(c.most_common(15))
 # Orden de las mas repetidas
 y = OrderedDict(c.most_common(50))
 
+# Generación de documento con palabras y fracuencias ('out_text')
 with open('revision.txt', 'w') as f:
     for k, v in y.items():
         f.write(f'palabra:{k} n°:{v}\n')  # Genera documento en formato lista
