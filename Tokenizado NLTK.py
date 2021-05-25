@@ -72,4 +72,4 @@ print(tagged_c)
 
 # Match de palabra con oración
 text = nltk.Text(word_tokenize(nuevo_texto))
-match = text.concordance('comision') # Se cambia la palabra
+match = text.concordance('Fecha') # Se cambia la palabra
