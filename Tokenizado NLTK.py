@@ -15,7 +15,7 @@ Paso 1: Se abre el archivo de texto y se le genera una limpieza base;
 transformación a minúsculas, eliminación de espacios en blanco, números, puntuación 
 y elementos web.
 '''
-
+# Carga de contenido y limpieza
 with open('out_text.txt', 'r') as miarchivo:
     archivo = miarchivo.read()
     # Se transforma el texto en minúscula
